@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Bg2.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Background of a man doing work on PC & Laptop";
 
 /**
  * Project list
@@ -31,29 +31,29 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Razorpay Clone 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
+    "It's a website that has been designed to mimic the design of the popular Indian payment gateway, Razorpay. This site is totally responsive.",
+    url: "https://github.com/SOMNATH0904/Razorpay-Clone",
+    },
+    {
+    title: "Spotify Clone",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
+    "This Project contains a Spotify Clone which is created using HTML and CSS.",
+    url: "https://github.com/SOMNATH0904/Spotify-Clone",
+    },
+    {
+    title: "Portfolio Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
+    "This is the Basic Portfolio Site, which is totally created using HTML & CSS.",
+    url: "https://github.com/SOMNATH0904/Portfolio-Page",
+    },
+    {
+    title: "Simon Game",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+    "Simon is an electronic game of short-term memory skill invented by Ralph H. Baer and Howard J. Morrison, working for toy design firm Marvin Glass and Associates with software programming by Lenny Cope.",
+    url: "https://github.com/SOMNATH0904/Simon-Game",
+    },
 ];
 
 const Portfolio = () => {
